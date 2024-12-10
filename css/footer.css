@@ -1,0 +1,471 @@
+.top-footer {
+  width: 100%;
+  height: 85px;
+  margin-top: 40px;
+  border-top: 1px solid lightgray;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  svg {
+    width: 195px;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  .bazgasht {
+    border: 1px solid lightgray;
+    padding: 8px 8px;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15px;
+    gap: -30px;
+
+    P {
+      font-family: iranyekan;
+      color: #a1a3a8;
+      font-size: 12px;
+      margin-bottom: -5px;
+      margin-right: 5px;
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+      vertical-align: top;
+      fill: #a1a3a8;
+    }
+  }
+}
+
+.top2-footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  margin-top: 85px;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: right;
+
+  pre {
+    margin-right: -20px;
+    font-family: iranyekan;
+    font-size: 12px;
+    color: #3f4064;
+  }
+}
+
+.top3-footer {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+
+  div[class^="img-fopter"] {
+    width: 19%;
+    height: 150px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+
+    p {
+      color: #63658d;
+      font-family: iranyekan;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+  }
+}
+
+.top4-footer {
+  width: 100%;
+  height: 320px;
+  /* background-color: #63658d; */
+  display: flex;
+  flex-flow: row nowrap;
+  align-self: center;
+  justify-content: center;
+
+  div[class^="text-footer"] {
+    width: 25%;
+    height: 320px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: right;
+    justify-content: right;
+    gap: 10px;
+
+    a {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: right;
+      text-decoration: none;
+      margin-right: -200px;
+
+      p {
+        color: #81858b;
+        font-family: iranyekan;
+        font-size: 15px;
+        margin-top: 10px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: right;
+        text-align: right !important;
+      }
+    }
+
+    h4 {
+      font-family: iranyekan;
+      font-size: 15px;
+      margin-top: 10px;
+      color: #3f4064;
+    }
+
+    .icon-footer {
+      width: 80%;
+      height: 85px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: start;
+      /* position: relative; */
+
+      div[class^="icon-f"] {
+        width: 25%;
+        height: 85px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        vertical-align: center;
+
+        svg {
+          width: 40px;
+          height: 40px;
+          fill: #a1a3a8;
+        }
+      }
+    }
+    .mail-footer > form {
+      width: 90%;
+      height: 60px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: center;
+      margin-top: 5px;
+      gap: -2px;
+
+      button {
+        padding: 12px 12px;
+        margin-right: 15px;
+        border-radius: 8px;
+        background-color: #d7d7d9f1;
+        color: white;
+        font-family: iranyekan;
+        border: unset;
+      }
+
+      input[type="email"] {
+        width: 70%;
+        height: 45px;
+        background-color: #f0f0f1f1;
+        border: unset;
+        border-radius: 8px 0 0 8px;
+        padding-right: 10px;
+        padding-left: 40px;
+        font-family: iranyekan;
+        color: gray;
+        border-radius: 8px;
+        margin-right: -5px;
+        border: unset;
+      }
+
+      &:focus {
+        outline: unset;
+      }
+    }
+  }
+}
+
+.text-diferent {
+  color: #3f4064 !important;
+  font-size: 17px !important;
+  font-weight: bold;
+}
+
+.main-download {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 30px;
+
+  .download {
+    width: 97%;
+    height: 75px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: start;
+    position: absolute;
+    background-color: #3c4b6d;
+    border-radius: 8px;
+
+    .right-down {
+      width: 50%;
+      height: 75px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: start;
+      gap: 17px;
+
+      img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+
+      .text-down {
+        font-family: iranyekan;
+        font-size: 20px;
+        color: white;
+      }
+    }
+
+    .left-down {
+      width: 50%;
+      height: 75px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: start;
+      padding-right: 180px;
+      box-sizing: border-box;
+
+      svg {
+        height: 44px;
+        gap: 60px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+.more-down {
+  padding: 3px 12px;
+  background-color: white;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+  svg {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.barresi-footer{
+  width: 100%;
+  height: 225px;
+  border-top: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: start;
+
+  .right-barresi{
+    width: 73%;
+    height: 225px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    justify-content: start;
+    padding-right: 15px;
+    line-height: 25px;
+    
+
+    h1{
+      font-family: iranyekan;
+      color: #62666d;
+      font-size: 22px;
+      margin-top: 35px;
+      
+    }
+
+    p{
+      font-family: iranyekan;
+      color: #62666d;
+      font-size: 12px;
+
+
+      }
+      p.mahv{
+        color: #8186907b;
+
+    }
+    a{
+      text-decoration: none;
+      line-height: 60px;
+
+    }
+    a>span{
+      color: #19bfd3;
+      padding-right: 10px;
+    }
+  }
+
+  .left-barresi{
+    width: 27%;
+    height: 225px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    padding-left: 20px;
+
+    div[class^="svg"]{
+      width: 25%;
+      height: 105px ;
+      border: 1px solid rgb(214, 202, 202);
+      border-radius: 8px;
+      
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+
+    }
+  }
+}
+
+.etemad{
+  img{
+    width: 130%;
+    height: 130%;
+  }
+}
+
+.hoghogh{
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+
+  p{
+    font-family: iranyekan;
+    font-size: 11px;
+    color: #81858b;
+
+  }
+
+
+}
+
+footer{
+  width: 100%;
+  height: 165px;
+  background-color: #f1ecec;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: start;
+
+  .topf{
+    width: 100%;
+    height: 82.5px;
+    display: flex;
+    flex-flow: row nowrap ;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  a{
+    display: flex;
+    flex-flow: row nowrap ;
+    align-items: center;
+    justify-content: center;
+
+    svg{
+      width: 80%;
+      height: 20px;
+      margin-top: 35px;
+    }
+  }
+
+  div[class^="bakhsh"]{
+    width: 12.5%;
+    height: 82.5px ;
+    border-right: 1px solid #ceced0;
+  }
+
+  .bottomf{
+    width: 100%;
+    height: 82.5px;
+    display: flex;
+    flex-flow: row nowrap ;
+    align-items: center;
+    justify-content: center;
+
+    a{
+      display: flex;
+      flex-flow: row nowrap ;
+      align-items: center;
+      justify-content: center;
+  
+      svg{
+        width: 90%;
+        height: 20px;
+        margin-top: 35px;
+      }
+    }
+  }
+
+  div[class^="end"]{
+    width: 16.67%;
+    height: 82.5px;
+    border-right: 1px solid #ceced0;
+    border-top: 1px solid #ceced0;
+    
+
+  }
+
+
+  }

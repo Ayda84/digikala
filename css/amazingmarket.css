@@ -1,0 +1,243 @@
+/* .amazingmarket {
+  width: 100%;
+  height: 110px;
+  margin-top: 30px;
+  position: relative;
+ 
+  a {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+    .marketamazing {
+      width: 87%;
+      height: 100%;
+      background-image: url(../img/back/freshPattern.svg);
+      background-color: rgb(234, 232, 232);
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      margin-top: 130px;
+      border-radius: 8px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: center;
+
+      .rightmarket {
+        width: 50%;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: right;
+        padding: 5px 45px 0 0;
+        text-align: center;
+        vertical-align: top;
+        gap: 24px;
+        gao .marketicon {
+          align-items: center;
+          text-align: center;
+
+          margin: 50px auto;
+        }
+      }
+      .leftmarket {
+        width: 50%;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        box-sizing: border-box;
+        text-align: left;
+        position: relative;
+      }
+      .marketdiscount {
+        background-color: #029a49;
+        padding: 4px 8px;
+        border-radius: 20px;
+      }
+      .marketdiscount > p {
+        font-family: iranyekan;
+        color: white;
+      }
+
+      div[class^="kala"] {
+        img {
+          width: 65px;
+          height: 65px;
+          object-fit: contain;
+          overflow: hidden;
+          position: relative;
+          border-radius: 50%;
+        }
+      }
+
+      .reddiscount{
+        width: 20px;
+        height: 10px;
+        background-color: #d32f2f;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+       transform: translate(-80px -80px);
+      }
+
+      .more2 {
+        padding: 5px 22px;
+        background-color: white;
+        border-radius: 25px;
+        margin-right: 10px;
+
+        svg {
+          width: 20px;
+          height: 20px;
+          fill: #029a49;
+          vertical-align: top;
+  
+          margin-bottom: 8px;
+        }
+      }
+      .more2 > p {
+        font-family: iranyekan;
+        color: #029a49;
+        font-size: 12px;
+        margin-top: 8px;
+      }
+    }
+  
+} */
+
+.amazingmarket {
+  width: 100%;
+  height: 110px;
+  margin-top: 35px;
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+
+  .mainmarket {
+    width: 88%;
+    height: 110px;
+    position: absolute;
+    border-radius: 15px;
+    background-image: url(../img/back/freshPattern.svg);
+    background-color: rgb(234, 232, 232);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: start;
+
+    a {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: right;
+      text-decoration: none;
+
+      .rightmarket {
+        width: 45%;
+        height: 110px;
+        position: absolute;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: right;
+        padding: 0 35px 0 0;
+        gap: 13px;
+
+        .icon-market {
+          padding: 5px 17px;
+          background-color: #029a49;
+          border-radius: 20px;
+
+          p {
+            font-family: iranyekan;
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+          }
+        }
+      }
+    }
+
+    .leftmarket {
+      width: 55%;
+      height: 110px;
+      position: absolute;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: center;
+      margin-right: 602px;
+      gap: 8px;
+
+      div[class^="img-market"] {
+        img {
+          width: 70px;
+          height: 70px;
+          object-fit: cover;
+          overflow: hidden;
+          position: relative;
+          border-radius: 50%;
+        }
+
+        .market-discount {
+          background-color: #d32f2f;
+          padding: 1px 8px;
+          border-radius: 20px;
+          position: absolute;
+          transform: translateY(27px);
+
+          p{
+            font-family: iranyekan;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+          }
+        }
+      }
+
+      .more-market{
+        padding: 5px 22px;
+        background-color: white;
+        border-radius: 25px;
+        margin-right: 10px;
+
+        svg {
+          width: 20px;
+          height: 20px;
+          fill: #029a49;
+          
+        vertical-align: top;
+          
+          margin-bottom: 10px;
+        }
+
+        
+      }
+      .more-market>p{
+        font-family: iranyekan;
+        color: #029a49;
+        font-size: 12px;
+        margin-top: 10px;
+        
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+.maindigital {
+  width: 100%;
+  height: 440px;
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.maindigital2 {
+  width: 100%;
+  height: 440px;
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.konsol {
+  width: 88%;
+  height: 420px;
+  /* background-color: rgb(128, 239, 239); */
+  position: absolute;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+  }
+  a > p {
+    margin-top: 190px;
+    margin-right: 150px;
+    color: #19bfd3;
+  }
+}
+
+div[class^="digital"] {
+  width: 25%;
+  height: 420px;
+  border-right: 1px solid lightgray;
+}
+
+.textdigital > h4 {
+  color: #23254e;
+  font-family: iranyekan;
+  font-weight: 700;
+  padding: 15px;
+}
+
+.textdigital > p {
+  color: #81858b;
+  font-weight: 400;
+  font-family: iranyekan;
+  font-size: 11px;
+  padding: 15px;
+  margin-top: -17px;
+}
+
+.topdigital {
+  width: 25%;
+  height: 150px;
+  position: absolute;
+  margin-top: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: right;
+
+  .topdigital1 {
+    width: 45%;
+    height: 150px;
+    position: absolute;
+    margin-right: 15px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    img.contorolsize {
+      width: 90%;
+      height: 90%;
+      object-fit: contain;
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+  }
+  .topdigital2 {
+    width: 45%;
+    height: 150px;
+    margin-right: 167.5px;
+    position: absolute;
+    margin-left: 10px;
+    border-right: 1px solid rgb(238, 233, 233);
+    border-bottom: 1px solid rgb(238, 233, 233);
+
+    img {
+      width: 90%;
+      height: 90%;
+      object-fit: contain;
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+      vertical-align: center;
+    }
+  }
+}
+
+.bottomdigital {
+  width: 25%;
+  height: 150px;
+  position: absolute;
+  /* background-color: #234983; */
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: right;
+  margin-right: -8px;
+  margin-top: 155px;
+
+  .bottomdigital1 {
+    width: 45%;
+    height: 150px;
+    position: absolute;
+    margin-right: 25px;
+    border-left: 1px solid rgb(238, 233, 233);
+    border-top: 1px solid rgb(238, 233, 233);
+    img {
+      width: 85%;
+      height: 85%;
+      object-fit: contain;
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+      margin-top: 15px;
+    }
+  }
+  .bottomdigital2 {
+    width: 45%;
+    height: 150px;
+    margin-right: 180px;
+    position: absolute;
+
+    img {
+      width: 90%;
+      height: 90%;
+      object-fit: contain;
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+      vertical-align: center;
+      margin-top: 15px;
+    }
+  }
+}

@@ -1,0 +1,200 @@
+
+
+.mainamazing {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -20px;
+
+  .amazing {
+    width: 88%;
+    height: 300px;
+    position: absolute;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(225deg, #d22c4e, #ee384e 41.68%, #ef5662);
+    border-radius: 15px;
+    padding: 20px 0;
+    box-sizing: border-box;
+
+    a {
+      text-decoration: none;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .main-slide {
+      background-color: transparent;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 70px;
+    }
+
+    .icon-amazing {
+      svg {
+        width: 80%;
+      }
+    }
+
+    .more-amazing {
+      color: white;
+      font-family: iranyekan;
+      font-size: 12px;
+      vertical-align: center;
+      margin-top: 20px;
+      margin-right: 10px;
+
+      svg {
+        width: 18px;
+        height: 18px;
+        fill: white;
+      }
+    }
+
+    .slide-amazing {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: start;
+      align-items: center;
+
+      .image-amazing {
+        width: 85%;
+        height: 60%;
+        margin-top: 8px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .caption > h3 {
+        width: 100%;
+        height: 40px;
+        font-family: iranyekan;
+        font-size: 12px;
+        margin-top: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 20px !important;
+        vertical-align: center;
+        color: #7b7e83;
+        text-align: right;
+        padding-right: 8px;
+      }
+
+      .price {
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        direction: ltr;
+        font-size: 14px;
+        font-family: iranyekan;
+        margin-top: 5px;
+        gap: 15px;
+
+        .newprice {
+          width: auto;
+          display: flex;
+          flex-flow: row nowrap;
+          direction: ltr;
+          gap: 2px;
+          margin-top: 10px;
+          margin-left: -10px;
+          color: #3f4064;
+          vertical-align: center;
+          svg {
+            width: 16px;
+            height: 16px;
+            fill: #424750;
+          }
+        }
+
+        span.discount {
+          font-size: 12px;
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          background-color: #d32f2f;
+          padding: 0px 7px;
+          box-sizing: border-box;
+          border-radius: 15px;
+          font-weight: 700;
+          margin-right: -14px;
+        }
+      }
+
+      .oldprice {
+        width: 100%;
+        text-align: left;
+        font-family: iranyekan;
+        font-size: 12px;
+        margin-left: 65px;
+        margin-top: 5px;
+        color: #c0c2c5;
+        text-decoration: line-through;
+        vertical-align: center;
+      }
+    }
+  }
+}
+
+.swiper-button-disabled {
+  display: none;
+}
+
+.bordering{
+  border-radius: 0 8px 8px 0;
+}
+
+.bordering2{
+  border-radius: 8px 0 0 8px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .circle-amazing{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    border: 2px solid #19bfd3;
+    
+    
+  }
+
+  svg{
+    width: 32px;
+     height: 32px; 
+     fill: #19bfd3;
+     margin-top: 15px;
+     margin-right: -8px;
+     font-weight: bold;
+  }
+
+  p{
+    font-family: iranyekan;
+    color: #636481;
+    font-size: 14px;
+    margin-top: 170px;
+    font-weight: lighter;
+  }
+}

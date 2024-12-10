@@ -1,0 +1,56 @@
+.maintwoimg {
+  width: 100%;
+  height: 265px;
+  /* background-color: aquamarine; */
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  .twoimg {
+    width: 88%;
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  div[class^="image"] > a > img {
+    width: 100%;
+    height: 265px;
+    border-radius: 15px;
+  }
+}
+
+.maintwoimg2 {
+  width: 100%;
+  height: 265px;
+  /* background-color: aquamarine; */
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+
+  .twoimg {
+    width: 88%;
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  div[class^="image"] > a > img {
+    width: 100%;
+    height: 265px;
+    border-radius: 15px;
+  }
+}

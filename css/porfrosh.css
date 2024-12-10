@@ -1,0 +1,160 @@
+.mainforosh {
+  width: 100%;
+  height: 410px;
+  margin-top: 15px;
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+
+  .porfrosh {
+    width: 88%;
+    height: 410px;
+    position: absolute;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .textforosh {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+
+    a{
+      text-decoration: none;
+      font-family: iranyekan;
+      color: #19bfd3;
+      font-size: 15px;
+      margin-right: 1230px;
+      display: flex;
+      margin-top: -30px;
+      
+    }
+
+    p {
+      text-align: center;
+      font-weight: 500;
+      color: #0c0c0c;
+      font-family: iranyekan;
+      padding-top: 30px;
+      font-size: 21px;
+    }
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: #f9bc00;
+      vertical-align: top;
+    }
+  }
+
+  .mahsolatforosh {
+    width: 100%;
+    height: 330px;
+    position: absolute;
+    margin-top: 80px;
+  
+
+    .slide-forosh {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: start;
+      padding: 0 10px;
+
+      a{
+        text-decoration: none;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        
+        div[class^="forosh"]{
+          width: 100%;
+          height: 33.33%;
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          justify-content: right;
+         
+        
+      }
+      
+
+   
+
+      
+        
+
+        img{
+          width: 80px;
+          height: 80px;
+          object-fit: contain;
+          
+        }
+
+        .textmahsol{
+          width: 70%;
+          height: 100%;
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          justify-content: right;
+        border-bottom: 1px solid rgb(238, 231, 231);
+        margin-top: 35px;
+        padding-bottom: 35px;
+
+       
+       
+
+        p.adad{
+          font-family: iranyekan;
+          font-size: 25px;
+          color: rgb(87, 200, 200);
+        }
+
+        p.textm{
+          font-family: iranyekan;
+          color: gray;
+          font-size: 13px;
+        }
+
+        }
+      }
+    
+    }
+
+  }
+}
+
+.swiper-button-disabled {
+  display: none;
+}
+
+.textmahsol2{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: right;
+margin-top: 25px;
+
+
+p.adad{
+  font-family: iranyekan;
+  font-size: 25px;
+  color: rgb(87, 200, 200);
+}
+
+p.textm{
+  font-family: iranyekan;
+  color: gray;
+  font-size: 13px;
+}
+
+}

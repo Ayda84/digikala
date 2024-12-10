@@ -1,0 +1,22 @@
+.four{
+    width: 100%;
+    height: 240px;
+    margin-top: 30px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    div[class^="ax"]>a>img{
+       width: 100%;
+       height: 240px; 
+       border-radius: 12px;
+       /* margin: 0 50px; */
+       /* gap: 10px; */
+    }
+    
+
+}
+

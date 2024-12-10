@@ -1,0 +1,76 @@
+.mainkhadamat{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.khadamat{
+    width: 85%;
+    margin: 30px 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    
+
+
+    div.circle{
+        /* width: 10%; */
+       padding: 0 2px;
+        text-align: center;
+        line-height: 20px;
+        
+    
+        
+       
+       img{
+        width: 55px;
+        height: 55px;
+        
+       }
+
+       .bishtar{
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        text-align: center; 
+        display: flex;
+        flex-flow: nowrap;
+        align-items: center;
+        justify-content: center; 
+        font-size: 40px;
+        background-color: #e0e0e2;
+        
+       }
+
+       .bishtar>span{
+        margin-top: -20px;
+        color: #424750;
+        font-size: 40px;
+       }
+
+       a{
+        text-decoration: none;
+       }
+
+       .text2{
+        color: #8e90a7;
+        text-align: center;
+        font-family: iranyekan;
+        font-size: 12px;
+        vertical-align: bottom;
+       }
+
+       .text3{
+        color: #8e90a7;
+        text-align: center;
+        font-family: iranyekan;
+        font-size: 12px;
+        margin-top: 10px;
+       }
+    }
+
+}

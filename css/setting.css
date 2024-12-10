@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.wrapper{
+    width: 100%;
+}
+
+@font-face {
+    font-family: iranyekan;
+    src: url("../fonts/IRANYekanWeb-Bold.eot");
+    src: url("../fonts/IRANYekanWeb-Bold.ttf");
+    src: url("../fonts/IRANYekanWeb-Bold.woff");
+    src: url("../fonts/IRANYekanWeb-Bold.woff2");
+}
+
+
+:root{
+    --headerheight : 170px ;
+}

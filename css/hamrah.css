@@ -1,0 +1,30 @@
+.mainhamrah{
+    width: 100%;
+    height: 165px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+  a{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hamrahi{
+    width: 88%;
+    height: 165px;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    border-radius: 15px;
+
+    }
+  }
+
+}
